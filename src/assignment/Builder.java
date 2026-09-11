@@ -6,5 +6,4 @@ public interface Builder { //fluent
     Builder setRAM(String RAM);
     Builder setIntegrated(boolean gpuIntegrated);
     Builder setStorage(String storage);
-    Builder build();
 }
