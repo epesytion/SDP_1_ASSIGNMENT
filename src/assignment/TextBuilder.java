@@ -4,7 +4,6 @@ public class TextBuilder implements Builder {
     private final StringBuilder sb = new StringBuilder("* * * * * * * * * * * *\n" +
                                                        "* Computer Spec Sheet *\n" +
                                                        "* * * * * * * * * * * *\n");
-
     public TextBuilder setCPU(String CPU) {
         sb.append("- CPU: ").append(CPU).append("\n");
         return this;
@@ -25,7 +24,6 @@ public class TextBuilder implements Builder {
         else {
             sb.append("- GPU is not integrated into CPU \n");
             return this;
-
         }
     }
     public TextBuilder setStorage(String storage) {
