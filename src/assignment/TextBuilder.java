@@ -19,17 +19,18 @@ public class TextBuilder implements Builder {
     }
     public TextBuilder setIntegrated(boolean isIntegrated) {
         if (isIntegrated){
-            sb.append("- GPU is integrated into CPU: ");
+            sb.append("- GPU is integrated into CPU: \n");
             return this;
         }
         else {
-            sb.append("- GPU is not integrated into CPU: ");
+            sb.append("- GPU is not integrated into CPU \n");
             return this;
 
         }
     }
     public TextBuilder setStorage(String storage) {
         sb.append("- Storage: ").append(storage).append("\n");
+        System.out.println(); //just space between computers
         return this;
     }
     public String getResult(){

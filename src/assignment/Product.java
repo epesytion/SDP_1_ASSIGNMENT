@@ -15,6 +15,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Computer[" + CPU + ", " + GPU + ", " + RAM + ", "  + gpuIntegrated + ", "  + storage + "]";
+        return "Computer[" + CPU + ", " + GPU + ", " + RAM + ", "  + gpuIntegrated + ", "  + storage + "] \n";
     }
 }
