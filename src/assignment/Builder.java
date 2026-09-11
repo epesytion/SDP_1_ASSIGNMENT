@@ -1,4 +1,4 @@
 package assignment;
 
-public class Builder {
+public interface Builder {
 }
